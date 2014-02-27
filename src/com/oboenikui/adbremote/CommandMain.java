@@ -83,7 +83,7 @@ public class CommandMain {
                 if(ip!=null&&port!=-1){
                     System.out.println("Connected to "+device+". ("+ip+":"+port+")");
                 } else if(ip!=null){
-                    System.out.println(device+" have already connected.");
+                    System.out.println(device+" has already connected.");
                 } else {
                     System.err.println("Can't connect to "+device+".");
                 }
